@@ -7,6 +7,10 @@ export default function Dictionary () {
 
     let [keyWord, setKeyWord] = useState("");
 
+    function handleResponse(response) {
+        console.log(response.data[0]);
+    }
+
     function search (event) {
         event.preventDefault();
         alert(`searching for ${keyWord} definition`);
