@@ -7,7 +7,7 @@ function App() {
       < div className="container">
       <header className="App-header">HELLO</header>
       <main><Dictionary /></main>
-      <footer className="text-center"> Coded by Lindsay Golding</footer>
+      <footer className="text-center"> Coded by Lindsay Golding and is {' '} <a href="https://github.com/ljgolding/dictionary-project" target="_blank" rel="noopener noreferrer">open-sourced on Github</a></footer>
     </div>
     </div>
   );
