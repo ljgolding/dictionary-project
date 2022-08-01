@@ -13,7 +13,7 @@ return (
     {props.photos.map(function(photo, index) {
         return (
         <div className="col-4" key={index}>
-        <a href={photo.src.original} target="_blank" rel="noreferrer" alt="">
+        <a href={photo.src.original} target="_blank" rel="noreferrer" alt="Photo">
           <img src={photo.src.landscape} key={index} className="img-fluid" />
         </a>
         </div>
